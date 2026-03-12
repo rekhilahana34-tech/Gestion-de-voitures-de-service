@@ -55,3 +55,7 @@ emp1.afficherInformation()
 v1.afficherInformation()
 emp2.afficherInformation()
 v2.afficherInformation()
+
+emp1.affecterVoiture(v1)
+emp1.afficherInformation()
+v1.afficherInformation()
