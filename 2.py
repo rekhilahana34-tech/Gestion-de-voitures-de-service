@@ -62,3 +62,6 @@ v1.afficherInformation()
 
 emp1.retirerVoiture()
 emp1.afficherInformation()
+
+emp1.affecterVoiture(v1)
+emp1.affecterVoiture(v2)
