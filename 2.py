@@ -47,7 +47,11 @@ class Voiture:
         else:
             print("pas de chauffeur")
 emp1 = Employe("p123","Dupont", "jean")
-amp2 = Employe("p456","Martin", "Hana")
+emp2 = Employe("p456","Martin", "Hana")
 
 v1 = Voiture("AA111", 2022, "Toyota",15000)
 v2 = Voiture("BB222", 2021, "Honda",15000)
+emp1.afficherInformation()
+v1.afficherInformation()
+emp2.afficherInformation()
+v2.afficherInformation()
